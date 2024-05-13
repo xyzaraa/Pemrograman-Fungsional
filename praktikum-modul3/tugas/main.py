@@ -9,7 +9,7 @@ movies = [
     {"title": "The French Dispatch", "year": 2021, "rating": 7.0, "genre": "Comedy"},
     {"title": "A Quiet Place Part II", "year": 2020, "rating": 7.4, "genre": "Horror"},
     {"title": "No Time To Die", "year": 2021, "rating": 6.8, "genre": "Action"},
-    {"title": "THe Power of the Dog", "year": 2021, "rating": 7.3, "genre": "Drama"},
+    {"title": "The Power of the Dog", "year": 2021, "rating": 7.3, "genre": "Drama"},
     {"title": "Eternals", "year": 2021, "rating": 6.4, "genre": "Action"},
     {"title": "The Last Duel", "year": 2021, "rating": 7.0, "genre": "Drama"},
 ]
@@ -50,7 +50,7 @@ def find_movie_by_title(movies, title):
 
 def find_movie(movies):
     title_to_search = input("Masukkan judul film yang ingin dicari: ")
-    matching_movies = find_movie_by_title(movies, title_to_search)
+    matching_movies = find_movie_by_title(movies, title_to_search)  
 
     if matching_movies:
         for movie in matching_movies:
